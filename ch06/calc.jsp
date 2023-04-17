@@ -11,7 +11,7 @@
     		case "+": result = n1+n2; break;
     		case "-": result = n1-n2; break;
     		case "/": result = n1/n2; break;
-    		case "*": result = n1+n2; break;
+    		case "*": result = n1*n2; break;
     		}
      %>
      <!DOCTYPE html>
