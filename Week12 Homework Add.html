@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>방명록 입력</title>
+    <script src="guestbook.js"></script>
+</head>
+<body>
+    <h1>방명록 입력</h1>
+
+    <input type="text" id="name" placeholder="이름" required>
+    <br>
+    <input type="text" id="email" placeholder="이메일" required>
+    <br>
+    <input type="text" id="message" placeholder="메시지" required>
+    <br>
+    <input type="text" id="date" placeholder="날짜" required>
+    <br>
+    <input type="text" id="time" placeholder="시간" required>
+    <br>
+    <button onclick="if (validateInputs()) alert('방명록이 입력되었습니다.');">입력</button>
+    <button onclick="clearInputs()">취소</button>
+    <button onclick="goToGuestbookList()">목록</button>
+</body>
+</html>
